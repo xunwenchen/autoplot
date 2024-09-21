@@ -1,3 +1,16 @@
+#' Generate a bar plot with error bars, jitter points, and Tukey's letters
+#'
+#' @param df a data frame
+#' @param var a target variable to plot
+#' @param group a grouping variable like Group or Treatment
+#' @param xlab x-axis label
+#' @param ylab y-axis label
+#'
+#' @return a ggplot object
+#' @export
+#'
+#' @examples
+#' plot_bar(df, Rainfall, Location, "Location", "Precipitation (mm)")
 plot_bar <- function(df, var, group, xlab, ylab) {
   library(ggplot2)
   library(dplyr)

@@ -15,4 +15,5 @@ Imports:
     multcompView,
     rlang,
     RColorBrewer
-    
+URL: https://github.com/xunwenchen/autoplot
+BugReports: https://github.com/xunwenchen/autoplot/issues

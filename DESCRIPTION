@@ -1,12 +1,11 @@
 Package: autoplot
-Title: Automatically plot bar chart with jitter points, mean and error bars, and significance stars/letters
+Title: Automatically plot bar chart with jitter points, mean and error bars, and Tukey's sig. letters
 Version: 0.0.0.9000
 Authors@R: 
     person("Xun Wen", "Chen", , "xchenat@connect.ust.hk", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-6202-2422"))
 Description: Automatically plot bar chart with jitter points, mean and error bars, and significance stars/letters.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2

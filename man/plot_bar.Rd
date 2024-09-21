@@ -24,5 +24,8 @@ a ggplot object
 Generate a bar plot with error bars, jitter points, and Tukey's letters
 }
 \examples{
-plot_bar(df, Rainfall, Location, "Location", "Precipitation (mm)")
+set.seed(123)
+df <- data.frame(var = c(rnorm(9, 10, 4), rnorm(9, 20, 6), rnorm(9, 30, 9)),
+                group = rep(c("Ctrl", "Pla", "DoSM"), each = 9))
+plot_bar(df, "var", "group", "Treatment", "Cured number of patients")
 }

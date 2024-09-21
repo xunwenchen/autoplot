@@ -48,7 +48,9 @@ plot_bar <- function(df, var, group, xlab, ylab) {
     ggplot2::xlab(xlab) +
     ggplot2::ylab(ylab) +
     ggplot2::scale_fill_brewer(palette = "Dark2") +
-    ggplot2::theme_bw()
+    ggplot2::theme_bw()+
+    # remove legend
+    ggplot2::theme(legend.position = "none")
 
   return(plot)
 }

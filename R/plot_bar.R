@@ -53,3 +53,5 @@ plot_bar <- function(df, var, group, xlab, ylab) {
 
   return(plot)
 }
+
+# END ----
